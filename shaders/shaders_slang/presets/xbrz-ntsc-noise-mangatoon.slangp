@@ -1,0 +1,21 @@
+shaders = 5
+
+shader0 = ../xbrz/shaders/xbrz-freescale-pass0.slang
+filter_linear0 = false
+scale_type0 = source
+scale0 = 1.0
+
+shader1 = ../xbrz/shaders/xbrz-freescale-pass1.slang
+filter_linear1 = false
+scale_type1 = viewport
+scale1 = 1.0
+
+shader2 = ../cel/shaders/mangatoon.slang
+filter_linear2 = false
+
+shader3 = ../noise/shaders/multismartnoise.slang
+filter_linear3 = false
+scale_type3 = source
+
+shader4 = ../misc/ntsc-colors.slang
+filter_linear4 = true
